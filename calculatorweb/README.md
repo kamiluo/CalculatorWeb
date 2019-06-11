@@ -13,6 +13,7 @@ Ejecutar Operación | Ejecuta la operación seleccionada con la sesión indicada
 * Clonar el proyecto e importar en el IDE de Spring Tools.
 * Ejecutar Maven -> Update Project..
 * Verificar la instalación y ejecutar el proyecto con Run As -> Spring Boot App...
+* Asegurarse que el proyecto calculatorweb se encuentra en ejecución en el puerto 8081.
 * Asegurarse que el proyecto CyxteraCalculatorAPI se encuentra en ejecución en el puerto 8080.
 ### Link de la aplicación
 
