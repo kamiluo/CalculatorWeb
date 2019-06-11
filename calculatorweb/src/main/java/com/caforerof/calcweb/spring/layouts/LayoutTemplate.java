@@ -23,7 +23,7 @@ public class LayoutTemplate {
 		menu.addMenuItems(new AppLayoutMenuItem("Home", ""),
 						  new AppLayoutMenuItem("Obtener Sesion", "getSession"),
 						  new AppLayoutMenuItem("Añadir Operando", "setOperand"),
-						  new AppLayoutMenuItem("Añadir Operator", "setOperator"));
+						  new AppLayoutMenuItem("Ejecutar Operación", "setOperator"));
 		return appLayout;
 	}
 	
