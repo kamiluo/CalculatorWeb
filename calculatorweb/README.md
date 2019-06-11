@@ -1,24 +1,19 @@
-# Project Base for Vaadin Flow and Spring Boot
+# CalculatorWeb App
 
-This project can be used as a starting point to create your own Vaadin Flow application with Spring Boot.
-It contains all the necessary configuration and some placeholder files to get you started.
+Este proyecto es una aplicación web hecha en vaadin y spring boot para la comunicación con la aplicación CyxteraCalculatorAPI realizando las operaciones basicas:
 
-The best way to use it by via [vaadin.com/start](https://vaadin.com/start) - you can get only the necessary parts and choose the package naming you want to use.
+Operacion | Descripción
+--- | ---
+Obtener Sesión | Obtiene una nueva sesión
+Añadir Operando | Añade los operandos a la sesión indicada
+Ejecutar Operación | Ejecuta la operación seleccionada con la sesión indicada
 
-Import the project to the IDE of your choosing as a Maven project. 
+## Instalación
 
-Run application using `mvn spring-boot:run` or directly running Application class from your IDE.
+* Clonar el proyecto e importar en el IDE de Spring Tools.
+* Ejecutar Maven -> Update Project..
+* Verificar la instalación y ejecutar el proyecto con Run As -> Spring Boot App...
+* Asegurarse que el proyecto CyxteraCalculatorAPI se encuentra en ejecución en el puerto 8080.
+### Link de la aplicación
 
-Open http://localhost:8081/ in browser
-
-
-For documentation on using Vaadin Flow and Spring, visit [vaadin.com/docs](https://vaadin.com/docs/v10/flow/spring/tutorial-spring-basic.html)
-
-For more information on Vaadin Flow, visit https://vaadin.com/flow.
-
-Branching information:
-* `master` the latest version of the starter, using the latest platform snapshot
-* `v10` the version for Vaadin 10
-* `v11` the version for Vaadin 11
-* `v12` the version for Vaadin 12
-* `v13` the version for Vaadin 13
+    http://localhost:8081
